@@ -11,16 +11,18 @@
     <h2 class="tituloConteudo">Tecnologias</h2>
     <section class="menuDeTecnologias">
         <ul>
-            <li>
-                <a href="detalhesTecnologia" class="containerImagensLink">
-                    <img src="/images/imagem_IA.png"
-                     alt="Imagem referente ao link para ler sobre IA"
-                     width="100"
-                     height="100"
-                     class="imagensParaLink">
-                    <h4>IA (inteligência Artifical)</h4>
-                </a>
-            </li>
+            <% informacoes.forEach(informacao => { %>
+                <li>
+                    <a href=<%= "detalhes/"+informacao.id %> class="containerImagensLink">
+                        <img src=<%= informacao.imagem %>
+                        alt="Imagem referente ao link para ler sobre IA"
+                        width="100"
+                        height="100"
+                        class="imagensParaLink">
+                        <h4><%= informacao.nome %></h4>
+                    </a>
+                </li>
+            <% }); %>
         </ul>
     </section>
 </main>
