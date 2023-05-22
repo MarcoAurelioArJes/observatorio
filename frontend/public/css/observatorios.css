@@ -1,0 +1,41 @@
+.apresentacaoObservatorio {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.tituloConteudo {
+    text-align: center;
+    margin: 1rem;
+}
+
+.explicacao {
+    text-align: justify;
+}
+
+.menuDeTecnologias {
+    background: #00eaff;
+    padding: 3rem 0;
+    box-sizing: border-box;
+}
+
+.containerImagensLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    box-sizing: border-box;
+}
+
+.imagensParaLink {
+    object-fit: contain;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.imagensParaLink:hover {
+    position: relative;
+    width: 105px;
+    height: 105px;
+    opacity: 0.5;
+    box-sizing: content-box;
+}
