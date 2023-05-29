@@ -10,9 +10,13 @@
 
     <h2 class="tituloConteudo">Tecnologias</h2>
     <section class="menuDeTecnologias">
-        <ul>
-            <% informacoes.forEach(informacao => { %>
-                <li>
+        <div class="setas"
+             id="prev-button">
+            <img src="/images/seta-esquerda.png" width="50" height="50" alt="">
+        </div>
+        <ul class="containerDeSlides">
+            <% informacoes.forEach((informacao, index) => { %>
+                <li class="itemDaLista <%= index <= 4 ? 'ativo' : ''%>">
                     <a href=<%= "detalhes/"+informacao.id %> class="containerImagensLink">
                         <img src=<%= informacao.imagem %>
                         alt="Imagem referente ao link para ler sobre IA"
@@ -24,5 +28,9 @@
                 </li>
             <% }); %>
         </ul>
+        <div class="setas"
+             id="next-button">
+                <img src="/images/seta-direita.png" width="50" height="50" alt="">
+        </div>
     </section>
 </main>

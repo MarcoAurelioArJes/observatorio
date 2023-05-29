@@ -4,43 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Observatório</title>
     <link rel="stylesheet" href="/css/estiloGlobal.css">
     <link rel="stylesheet" href="/css/cabecalho.css">
     <link rel="stylesheet" href="/css/detalhes.css">
+    <link rel="stylesheet" href="/css/rodape.css">
 </head>
 <body>
     <%- include('./cabecalho'); -%>
-    <h2>Informações Gerais</h2>
-    <div class="info-container">
-        <label>Nome:</label>
-        <span id="nome"><%= informacao.nome %></span>
-    </div>
-    <div class="info-container">
-        <label>Imagem:</label>
-        <img src=<%= informacao.imagem %> id="imagem" alt="Imagem do Item">
-    </div>
-    <div class="info-container">
-        <label>Descrição:</label>
-        <p id="descricao"><%= informacao.descricao %></p>
-    </div>
-
-    <div class="software-container">
-    <h2>Softwares</h2>
-    <ul>
-        <% informacao.softwares.forEach(software => { %>
-            <li>
-                <div>
-                    <label>Nome:</label>
-                    <span id="software-nome"><%= software.nome %></span>
-                </div>
-                <div>
-                    <label>Descrição:</label>
-                    <p id="software-descricao"><%= software.descricao %></p>
-                </div>
-            </li>
-        <% }); %>
-    </ul>
-</div>
+    <section>
+        <h1 class="titulo"><%= informacao.nome %></h1>
+        <div class="infoContainer">
+            <h4>Descrição</h4>
+            <p class="descricao"><%= informacao.descricao %></p>
+        </div>
+    
+        <div class="conteudoSoftwares">
+            <h2>Onde é utilizado ?</h2>
+            <ul class="listaDeSoftwares">
+                <% informacao.softwares.forEach(software => { %>
+                    <li class="itensDeSoftwares">
+                        <div>
+                            <label>Nome:</label>
+                            <span id="software-nome"><%= software.nome %></span>
+                        </div>
+                        <div class="conteudoDescricao">
+                            <label>Descrição:</label>
+                            <span class="descricao_utilizacao"><%= software.descricao %></span>
+                        </div>
+                    </li>
+                <% }); %>
+            </ul>
+        </div>
+    </section>
+    <%- include('./rodape'); -%>
 </body>
 </html>

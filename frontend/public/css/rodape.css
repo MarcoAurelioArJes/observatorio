@@ -1,0 +1,13 @@
+#rodape {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    padding: 3rem;
+    text-align: center;
+    background: #00eaff;
+    box-sizing: border-box;
+}
+
+.listaCriadores {
+    list-style: none;
+}

@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Observatório</title>
     <link rel="stylesheet" href="/css/estiloGlobal.css">
     <link rel="stylesheet" href="/css/cabecalho.css">
     <link rel="stylesheet" href="/css/observatorios.css">
+    <link rel="stylesheet" href="/css/rodape.css">
 </head>
 <body>
     <%- include('./components/cabecalho'); -%>
     <%- include('./components/observatorios', {informacoes: informacoes}); -%>
+    <%- include('./components/rodape'); -%>
 </body>
+    <script src="/js/barraDeRolagem.js"></script>
 </html>

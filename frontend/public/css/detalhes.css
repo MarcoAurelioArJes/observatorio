@@ -1,0 +1,29 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.titulo {
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.listaDeSoftwares {
+    list-style: none;
+}
+
+.infoContainer h4 {
+    margin: 0 1.5rem;
+}
+
+.itensDeSoftwares,
+.descricao {
+    background: #ccc;
+    margin: 1rem 1.5rem;
+    padding: 1rem;
+    border-radius: 0.3rem;
+}
+
+.conteudoSoftwares h2 {
+    text-align: center;
+}
