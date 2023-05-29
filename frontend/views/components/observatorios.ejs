@@ -10,26 +10,26 @@
 
     <h2 class="tituloConteudo">Tecnologias</h2>
     <section class="menuDeTecnologias">
-        <div class="setas"
-             id="prev-button">
+        <div class="setas esquerda"
+             onclick="previousSlide();">
             <img src="/images/seta-esquerda.png" width="50" height="50" alt="">
         </div>
         <ul class="containerDeSlides">
             <% informacoes.forEach((informacao, index) => { %>
-                <li class="itemDaLista <%= index <= 4 ? 'ativo' : ''%>">
+                <li class="itemDaLista <%= index <= 3 ? 'ativo' : ''%>">
                     <a href=<%= "detalhes/"+informacao.id %> class="containerImagensLink">
                         <img src=<%= informacao.imagem %>
-                        alt="Imagem referente ao link para ler sobre IA"
-                        width="100"
-                        height="100"
-                        class="imagensParaLink">
+                            alt="Imagem referente ao link para ler sobre IA"
+                            width="100"
+                            height="100"
+                            class="imagensParaLink">
                         <h4><%= informacao.nome %></h4>
                     </a>
                 </li>
             <% }); %>
         </ul>
-        <div class="setas"
-             id="next-button">
+        <div class="setas direita"
+             onclick="nextSlide();">
                 <img src="/images/seta-direita.png" width="50" height="50" alt="">
         </div>
     </section>

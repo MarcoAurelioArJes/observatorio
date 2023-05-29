@@ -1,30 +1,30 @@
-const slideList = document.querySelector('.containerDeSlides');
-const slideItems = document.querySelectorAll('.sitemDaLista');
+var slideIndex = 0;
+var slides = document.getElementsByClassName("itemDaLista");
 
-const slideWidth = slideList.offsetWidth; 
-const slideCount = slideItems.length; 
-const visibleCount = 4; 
-const slideStep = slideWidth / visibleCount; 
+function showSlides() {
+    var i;
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = slideIndex; i < slideIndex + 4; i++) {
+        if (slides[i]) {
+            slides[i].style.display = "block";
+        }
+    }
+}
 
-let currentIndex = 0; 
-
-function updateSlidePosition() {
-  slideList.style.transform = `translateX(${-currentIndex * slideStep}px)`;
+function previousSlide() {
+    if (slideIndex >= 4) {
+        slideIndex -= 4;
+        showSlides();
+    }
 }
 
 function nextSlide() {
-  if (currentIndex < slideCount - visibleCount) {
-    currentIndex++;
-    updateSlidePosition();
-  }
+    if (slideIndex < slides.length - 4) {
+        slideIndex += 4;
+        showSlides();
+    }
 }
 
-function prevSlide() {
-  if (currentIndex > 0) {
-    currentIndex--;
-    updateSlidePosition();
-  }
-}
-
-document.getElementById('next-button').addEventListener('click', nextSlide);
-document.getElementById('prev-button').addEventListener('click', prevSlide);
+showSlides();
