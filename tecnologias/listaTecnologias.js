@@ -163,26 +163,42 @@ module.exports = [
         softwares: [
             {
                 nome: "Bitcoin",
-                descricao: `O metaverso tem suas raízes no desenvolvimento de jogos
-                online em mundos virtuais massivos, como o Second Life e o World of Warcraft. Atualmente,
-                empresas como Epic Games estão criando metaversos como o Fortnite, onde jogadores
-                podem se reunir, interagir e participar de eventos virtuais em um ambiente compartilhado.`
+                descricao: `Uma criptomoeda livre, isto é, um dinheiro eletrônico e sistema de pagamento
+				peer-to-peer descentralizado que utiliza a tecnologia blockchain para registrar e
+				verificar transações financeiras. É também o software que originalmente
+				implementou a tecnologia de blockchain e foi o precursor do mercado de
+				criptomoedas.`
             },
             {
                 nome: "IBM Blockchain Platform",
-                descricao: "FALTA"
+                descricao: `Solução blockchain totalmente integrada oferecida pela IBM, criada para acelerar o
+				desenvolvimento, o controle e a operação de uma rede de negócios para várias
+				instituições. Permite às empresas desenvolverem, implantarem e gerenciarem redes
+				blockchain privadas para casos de uso específicos.`
             },
             {
                 nome: "Filecoin",
-                descricao: "FALTA"
+                descricao: `Plataforma descentralizada destinada a ser um armazenamento em nuvem
+				cooperativo baseado em blockchain e método de recuperação de dados. Ela permite
+				que os usuários comprem e vendam espaço de armazenamento não utilizado em seus
+				dispositivos para criar uma rede de armazenamento de arquivos descentralizada.`
             },
             {
                 nome: "Factom",
-                descricao: "FALTA"
+                descricao: `Um projeto open-source e descentralizado, o Factom utiliza a tecnologia
+				blockchain para garantir a integridade e segurança de dados empresariais,
+				mudando a forma como empresas gerenciam os dados e mantém seus
+				registros. Ele permite que as organizações armazenem e verifiquem registros e
+				documentos de maneira imutável, garantindo sua autenticidade e evitando
+				adulterações.`
             },
             {
                 nome: "Civic",
-                descricao: "FALTA"            
+                descricao: `Um software de identidade digital que utiliza a tecnologia do blockchain para
+				fornecer mais segurança para empresas e usuários e proteger identidades de
+				forma mais eficiente. Permite que os usuários tenham controle sobre seus
+				dados pessoais e verifiquem sua identidade de forma segura e privada,
+				evitando a necessidade de confiar em terceiros para a autenticação.`            
             }
         ]
     }
