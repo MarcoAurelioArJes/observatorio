@@ -63,7 +63,6 @@ function nextSlide() {
     } else if (window.screen.width < 420 && (slideIndex < slides.length - 1)) {
         slideIndex += 1;
         showSlides();
-        console.log("TESTE")
     }
 }
 
