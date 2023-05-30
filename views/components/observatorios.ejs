@@ -16,7 +16,7 @@
         </div>
         <ul class="containerDeSlides">
             <% informacoes.forEach((informacao, index) => { %>
-                <li class="itemDaLista <%= index <= 3 ? 'ativo' : ''%>">
+                <li class="itemDaLista">
                     <a href=<%= "detalhes/"+informacao.id %> class="containerImagensLink">
                         <img src=<%= informacao.imagem %>
                             alt="Imagem referente ao link para ler sobre IA"

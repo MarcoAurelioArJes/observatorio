@@ -73,3 +73,10 @@
 .itemDaLista.ativo {
     display: block;
 }
+
+
+@media (max-width: 1200px) {
+    .menuDeTecnologias {
+        overflow: auto;
+    }   
+}
