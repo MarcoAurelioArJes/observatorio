@@ -1,4 +1,7 @@
 {
+  "builds": {
+    "src": "./server.js"
+  },
   "main": "./server.js",
   "scripts": {
     "start": "nodemon ./server.js"
