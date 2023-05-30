@@ -85,7 +85,7 @@ module.exports = [
                 descricao: "O Watson é uma plataforma de IA desenvolvida pela IBM. Ela oferece uma ampla gama de serviços cognitivos, como processamento de linguagem natural, análise de sentimentos, reconhecimento de voz e visão computacional. O Watson é utilizado em áreas como saúde, finanças, atendimento ao cliente e muito mais."
             },
             {
-                nome: "Adobe Sensei:",
+                nome: "Adobe Sensei",
                 descricao: "Framework que utiliza inteligência artificial com inteligência cognitiva. Presente em produtos da Adobe, como o Illustrator, Photoshop e Experience Cloud, possibilitando edição de imagem, automação de tarefas e personalização de experiências."
             },
             {
