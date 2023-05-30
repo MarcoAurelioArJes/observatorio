@@ -85,20 +85,20 @@ module.exports = [
                 descricao: "O Watson é uma plataforma de IA desenvolvida pela IBM. Ela oferece uma ampla gama de serviços cognitivos, como processamento de linguagem natural, análise de sentimentos, reconhecimento de voz e visão computacional. O Watson é utilizado em áreas como saúde, finanças, atendimento ao cliente e muito mais."
             },
             {
-                nome: "Google Cloud",
-                descricao: "Softwares de gerenciamento de infraestrutura urbana utilizam a IoT para coletar e analisar dados em tempo real, visando melhorar a eficiência dos serviços públicos, como monitoramento de tráfego, iluminação pública inteligente e gerenciamento de resíduos."
+                nome: "Adobe Sensei:",
+                descricao: "Framework que utiliza inteligência artificial com inteligência cognitiva. Presente em produtos da Adobe, como o Illustrator, Photoshop e Experience Cloud, possibilitando edição de imagem, automação de tarefas e personalização de experiências."
             },
             {
-                nome: "Microsoft",
-                descricao: "Soluções como FarmBeats da Microsoft, John Deere Operations Center e AgSense são exemplos de softwares que usam a IoT para coletar dados em fazendas, como condições climáticas, umidade do solo e monitoramento de irrigação, para otimizar o cultivo e aumentar a produtividade agrícola."
+                nome: "Microsoft Azure Cognitive Services",
+                descricao: "Desenvolvido pela Microsoft, oferece uma API que ao ser consumida, concede serviços que inserem a inteligência cognitiva em aplicações, possibilitando recursos como: tradução automática, reconhecimento de voz, tomadas de decisões avançadas, análise de imagens e texto, entre outros."
             },
             {
-                nome: "Amazon Web Services",
-                descricao: "Plataformas como Siemens MindSphere, GE Predix e Bosch IoT Suite são usadas para conectar máquinas, sensores e sistemas de produção em fábricas, permitindo monitoramento em tempo real, manutenção preditiva e otimização de processos."
+                nome: "Google Cloud AI Services",
+                descricao: "Oferece serviços de inteligência cognitiva e ferramentas que auxiliam o desenvolvimento de aplicações inteligentes. Essas serviços incluem as API’s de IA, que a exemplo, oferecem recursos como: análise de imagem E textos, Natural Language, reconhecimento de fala, e etc."
             },
             {
-                nome: "Salesforce Einstein",
-                descricao: "Softwares como Philips HealthSuite, Apple HealthKit e Google Fit utilizam a IoT para monitorar dados de saúde, coletados por dispositivos vestíveis (wearables), sensores e aplicativos móveis, permitindo o acompanhamento de parâmetros fisiológicos, como frequência cardíaca, sono, atividade física, entre outros."
+                nome: "Amazon Rekognition",
+                descricao: "Oferece recursos que auxiliam a análise de imagens e vídeos. Podendo detectar objetos, faces, texto e expressões em imagens e vídeos, além de fornecer análises de conteúdo visual."
             }
         ]
     },
